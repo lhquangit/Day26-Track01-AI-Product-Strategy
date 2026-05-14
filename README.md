@@ -1,23 +1,23 @@
-# Day 26 - 2A202600201 Nguyen Quoc Nam
+# Day 26 - 2A202600201 Nguyễn Quốc Nam
 
-## Thong tin hoc vien
+## Thông tin học viên
 
-- Ma hoc vien: 2A202600201
-- Ho ten: Nguyen Quoc Nam
+- Mã học viên: 2A202600201
+- Họ tên: Nguyễn Quốc Nam
 - Track: AI Product Strategy
 
-## Ket qua cuoi
+## Kết quả cuối
 
-- [Lab 1 - Tim 1 case bi anh huong boi big tech AI (ca nhan)](./worksheet/01-bigtech-disruption/3-FINAL-case-analysis.md)
-- [Lab 2 - Phan tich san pham AI (nhom)](./worksheet/02-product-comparison/analysis-report.pdf)
-- [Lab 3 - Take notes (ca nhan)](./worksheet/03-takenotes.md)
+- [Lab 1 - Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)](./worksheet/01-bigtech-disruption/3-FINAL-case-analysis.md)
+- [Lab 2 - Phân tích sản phẩm AI (nhóm)](./worksheet/02-product-comparison/analysis-report.pdf)
+- [Lab 3 - Take notes (cá nhân)](./worksheet/03-takenotes.md)
 
-## Nhom Lab 2
+## Nhóm Lab 2
 
 Xem `./worksheet/02-product-comparison/group-members.md`.
 
-## Ghi chu
+## Ghi chú
 
-- Lab 1 da hoan thien theo case **Chegg vs ChatGPT** voi he thong dan chung cong khai.
-- Lab 2 duoc hoan thien theo cap san pham **Perplexity vs Microsoft Copilot** trong nganh Tim kiem, co luot test cong khai va screenshots kem theo.
-- Workspace nay chi xac nhan duoc 1 thanh vien; cac cho lien quan den teammate thu hai duoc danh dau ro thay vi bịa thong tin.
+- Lab 1 đã hoàn thiện theo case **Chegg vs ChatGPT** với hệ thống dẫn chứng công khai.
+- Lab 2 được hoàn thiện theo cặp sản phẩm **Perplexity vs Microsoft Copilot** trong ngành Tìm kiếm, có lượt test công khai và screenshots kèm theo.
+- Workspace này chỉ xác nhận được 1 thành viên; các chỗ liên quan đến teammate thứ hai được đánh dấu rõ thay vì bịa thông tin.

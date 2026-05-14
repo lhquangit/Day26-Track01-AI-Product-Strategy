@@ -1,74 +1,74 @@
 ---
-artifact: 03-takenotes - Quan sat ca nhan sau phan chia se nhom khac
-bai-tap: 3 - Quan sat + rut ra bai hoc (ca nhan)
-phase: Sau phan shareout
-time: 15 phut
-input: Phan trinh bay cua it nhat 2 nhom khac tren lop
-nop-cuoi: Co - file cuoi Lab 3
+artifact: 03-takenotes - Quan sát cá nhân sau phần chia sẻ nhóm khác
+bai-tap: 3 - Quan sát + rút ra bài học (cá nhân)
+phase: Sau phần shareout
+time: 15 phút
+input: Phần trình bày của ít nhất 2 nhóm khác trên lớp
+nop-cuoi: Có - file cuối Lab 3
 ---
 
-# 03 - Take notes: quan sat + bai hoc ca nhan
+# 03 - Take notes: quan sát + bài học cá nhân
 
-> Luu y trung thuc: workspace nay **khong luu du lieu ve cac nhom da nghe tren lop**, nen file ben duoi duoc hoan thien theo dang **khung ghi chu da co san nhan dinh phuong phap**, dong thoi danh dau ro nhung cho can thay bang ten nhom / ma hoc vien thuc te truoc khi nop neu ban muon phan anh dung buoi hoc. Muc tieu la khong de file trong, nhung cung khong bịa thong tin lop hoc.
+> Lưu ý trung thực: workspace này **không lưu dữ liệu về các nhóm đã nghe trên lớp**, nên file bên dưới được hoàn thiện theo dạng **khung ghi chú đã có sẵn nhận định phương pháp**, đồng thời đánh dấu rõ những chỗ cần thay bằng tên nhóm / mã học viên thực tế trước khi nộp nếu bạn muốn phản ánh đúng buổi học. Mục tiêu là không để file trống, nhưng cũng không bịa thông tin lớp học.
 
-## Thong tin
+## Thông tin
 
-- **Ma hoc vien**: 2A202600201
-- **Ho ten**: Nguyen Quoc Nam
-- **Ngay**: 2026-05-14
-- **Nhom Lab 2 cua toi**: Perplexity vs Microsoft Copilot trong nganh Tim kiem
+- **Mã học viên**: 2A202600201
+- **Họ tên**: Nguyễn Quốc Nam
+- **Ngày**: 2026-05-14
+- **Nhóm Lab 2 của tôi**: Perplexity vs Microsoft Copilot trong ngành Tìm kiếm
 
-## Phan 1 - Nhom da quan sat (can thay bang nhom thuc te)
+## Phần 1 - Nhóm đã quan sát (cần thay bằng nhóm thực tế)
 
-| # | Ten nhom / ma 2 hoc vien | Nganh | 2 san pham ho test |
+| # | Tên nhóm / mã 2 học viên | Ngành | 2 sản phẩm họ test |
 |---|---|---|---|
-| 1 | [Can thay bang nhom thuc te tren lop] | [A/B/C/D] | [...] vs [...] |
-| 2 | [Can thay bang nhom thuc te tren lop] | [A/B/C/D] | [...] vs [...] |
+| 1 | [Cần thay bằng nhóm thực tế trên lớp] | [A/B/C/D] | [...] vs [...] |
+| 2 | [Cần thay bằng nhóm thực tế trên lớp] | [A/B/C/D] | [...] vs [...] |
 
-## Phan 2 - Dieu thay hay tu nhom khac
+## Phần 2 - Điều thấy hay từ nhóm khác
 
-**Quan sat 1**:
+**Quan sát 1**:
 
-- Dieu toi se tim o nhom khac khi nghe lai: ho co dung chung mot prompt va giu nguyen task cho ca 2 san pham khong.
-- Vi sao toi thay hay: day la dieu tach ro "so sanh san pham" khoi "so sanh prompt engineering". Nhom nao ky luat diem nay thuong co verdict dang tin hon.
+- Điều tôi sẽ tìm ở nhóm khác khi nghe lại: họ có dùng chung một prompt và giữ nguyên task cho cả 2 sản phẩm không.
+- Vì sao tôi thấy hay: đây là điều tách rõ "so sánh sản phẩm" khỏi "so sánh prompt engineering". Nhóm nào kỷ luật điểm này thường có verdict đáng tin hơn.
 
-**Quan sat 2**:
+**Quan sát 2**:
 
-- Dieu toi se tim o nhom khac khi nghe lai: ho co chi ro 1-2 friction areas that su gay ton hao nhat thay vi liet ke qua nhieu UX details khong.
-- Vi sao toi thay hay: S2 manh nhat khi nhom chi ra 1 nut that o workflow, vi luc do verdict S5 de bao ve hon.
+- Điều tôi sẽ tìm ở nhóm khác khi nghe lại: họ có chỉ rõ 1-2 friction areas thực sự gây tổn hao nhất thay vì liệt kê quá nhiều UX details không.
+- Vì sao tôi thấy hay: S2 mạnh nhất khi nhóm chỉ ra 1 nút thắt ở workflow, vì lúc đó verdict S5 dễ bảo vệ hơn.
 
-## Phan 3 - Diem yeu / cho chua thuyet phuc
+## Phần 3 - Điểm yếu / chỗ chưa thuyết phục
 
-**Diem yeu 1**:
+**Điểm yếu 1**:
 
-- Kieu loi toi se soi o nhom khac: ket luan "A tot hon B" nhung khong co anh entry/input/output tuong ung.
-- Bang chung gi con thieu: anh chup that, thoi gian test, prompt y nguyen, va trang thai free/paid.
-- De xuat lam them: gan moi nhan dinh voi ten file screenshot cu the.
+- Kiểu lỗi tôi sẽ soi ở nhóm khác: kết luận "A tốt hơn B" nhưng không có ảnh entry/input/output tương ứng.
+- Bằng chứng gì còn thiếu: ảnh chụp thật, thời gian test, prompt y nguyên, và trạng thái free/paid.
+- Đề xuất làm thêm: gắn mỗi nhận định với tên file screenshot cụ thể.
 
-**Diem yeu 2**:
+**Điểm yếu 2**:
 
-- Kieu loi toi se soi o nhom khac: dung so lieu business signal khong ro moc thoi gian, hoac tron user base cua ca cong ty vao user base cua san pham.
-- Bang chung gi con thieu: nguon cong khai co ngay thang va chi ro do la MAU, DAU, ARR hay chi la uoc tinh.
-- De xuat lam them: neu khong co so lieu tach rieng, viet thang "khong co nguon cong khai" thay vi doan.
+- Kiểu lỗi tôi sẽ soi ở nhóm khác: dùng số liệu business signal không rõ mốc thời gian, hoặc trộn user base của cả công ty vào user base của sản phẩm.
+- Bằng chứng gì còn thiếu: nguồn công khai có ngày tháng và chỉ rõ đó là MAU, DAU, ARR hay chỉ là ước tính.
+- Đề xuất làm thêm: nếu không có số liệu tách riêng, viết thẳng "không có nguồn công khai" thay vì đoán.
 
-## Phan 4 - Cau hoi dat cho nhom khac
+## Phần 4 - Câu hỏi đặt cho nhóm khác
 
-- Cho nhom [can thay]: verdict cua nhom dang dua nhieu hon vao quality answer hay vao do muot cua workflow? Anh nao trong deck chung minh diem do ro nhat?
-- Cho nhom [can thay]: trong phan moat, nhom dang noi ve moat cua **san pham** hay moat cua **cong ty me / ecosystem**? Hai thu nay da tach ro chua?
+- Cho nhóm [cần thay]: verdict của nhóm đang dựa nhiều hơn vào quality answer hay vào độ mượt của workflow? Ảnh nào trong deck chứng minh điểm đó rõ nhất?
+- Cho nhóm [cần thay]: trong phần moat, nhóm đang nói về moat của **sản phẩm** hay moat của **công ty mẹ / ecosystem**? Hai thứ này đã tách rõ chưa?
 
-## Phan 5 - Dieu toi rut ra cho ban than
+## Phần 5 - Điều tôi rút ra cho bản thân
 
-**Bai hoc 1**:
+**Bài học 1**:
 
-- Toi se lam khac lan sau: chup first-pass failure nhu mot bang chung, khong chi chup output dep.
-- Ly do: man hinh `Verify you are human` cua Copilot trong bai nay thuc chat noi len nhieu hon mot doan nhan xet chung chung ve friction.
+- Tôi sẽ làm khác lần sau: chụp first-pass failure như một bằng chứng, không chỉ chụp output đẹp.
+- Lý do: màn hình `Verify you are human` của Copilot trong bài này thực chất nói lên nhiều hơn một đoạn nhận xét chung chung về friction.
 
-**Bai hoc 2**:
+**Bài học 2**:
 
-- Toi se lam khac lan sau: neu khong co MAU cong khai on dinh, toi se dung operational proxy manh hon (query volume, paid seats, ARR) va ghi ro do la proxy.
-- Ly do: cach nay giu bai trung thuc ma van co the phan tich dinh luong.
+- Tôi sẽ làm khác lần sau: nếu không có MAU công khai ổn định, tôi sẽ dùng operational proxy mạnh hơn (query volume, paid seats, ARR) và ghi rõ đó là proxy.
+- Lý do: cách này giữ bài trung thực mà vẫn có thể phân tích định lượng.
 
-**Bai hoc 3**:
+**Bài học 3**:
 
-- Toi se lam khac lan sau: tach verdict theo persona / context, vd "strong cho guest search" khac voi "strong cho ecosystem productivity".
-- Ly do: cung mot san pham co the rat manh o distribution nhung yeu o first-turn use case cu the.
+- Tôi sẽ làm khác lần sau: tách verdict theo persona / context, ví dụ "strong cho guest search" khác với "strong cho ecosystem productivity".
+- Lý do: cùng một sản phẩm có thể rất mạnh ở distribution nhưng yếu ở first-turn use case cụ thể.
