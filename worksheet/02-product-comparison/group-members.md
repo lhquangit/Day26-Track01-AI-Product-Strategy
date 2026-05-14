@@ -1,9 +1,9 @@
 ---
-artifact: group-members - Danh sách thành viên nhóm Lab 2
+
+## artifact: group-members - Danh sách thành viên nhóm Lab 2
 bai-tap: 2 - Phân tích sản phẩm AI (nhóm)
 phase: Khai báo nhóm
 nop-cuoi: Có - bắt buộc (nộp kèm analysis-report.pdf)
----
 
 # Thành viên nhóm Lab 2
 
@@ -11,10 +11,12 @@ Lab 2 được hoàn thiện trên repo này từ một workspace chỉ xác nh�
 
 ## Danh sách thành viên
 
-| # | Mã học viên | Họ tên đầy đủ | Phân công chính |
-|---|---|---|---|
-| 1 | 2A202600201 | Nguyễn Quốc Nam | Chốt prompt, test Perplexity, tổng hợp phân tích, dựng PDF |
-| 2 | Chưa có dữ liệu trong workspace | Chưa có dữ liệu trong workspace | Cần bổ sung nếu nộp đúng đội hình 2 người trên lớp |
+
+| #   | Mã học viên | Họ tên đầy đủ   | Phân công chính                                            |
+| --- | ----------- | --------------- | ---------------------------------------------------------- |
+| 1   | 2A202600201 | Nguyễn Quốc Nam | Tổng hợp phân tích, dựng PDF                               |
+| 2   | 2A202600097 | Lê Hồng Quân    | Chốt prompt, test Perplexity, tổng hợp phân tích, dựng PDF |
+
 
 ## Nhiệm vụ thử nghiệm chung
 
@@ -22,13 +24,13 @@ Nhiệm vụ chung cho cả 2 sản phẩm là: **tóm tắt thị trường edt
 
 **Ngành chọn**: A - Tìm kiếm
 
-**Sản phẩm A**: Perplexity - https://www.perplexity.ai/
+**Sản phẩm A**: Perplexity - [https://www.perplexity.ai/](https://www.perplexity.ai/)
 
-**Sản phẩm B**: Microsoft Copilot - https://copilot.microsoft.com/
+**Sản phẩm B**: Microsoft Copilot - [https://copilot.microsoft.com/](https://copilot.microsoft.com/)
 
 ## Phân chia screenshot
 
-- Sản phẩm A -> Nguyễn Quốc Nam
+- Sản phẩm A -> Lê Hồng Quân
 - Sản phẩm B -> Nguyễn Quốc Nam
 
 ## Ghi chú
@@ -49,3 +51,4 @@ Slide deck Analysis Report có 5 mục bắt buộc (S1 -> S5). Mục S5 (Produc
 - **S5.6 Niche Down + AI Feature Map** - niche cụ thể và map User Value / User Alignment / Business Value.
 - **S5.7 Spark -> Loop -> System** - sản phẩm đang ở giai đoạn nào và dự báo 12 tháng tới.
 - **S5.8 Liên hệ Lab 1 case** - rủi ro disruption-style và bài học rút ra từ case Chegg vs ChatGPT.
+

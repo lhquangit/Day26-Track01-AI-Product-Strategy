@@ -1,11 +1,11 @@
 ---
-artifact: 03-takenotes - Quan sát cá nhân sau phần chia sẻ nhóm khác
+
+## artifact: 03-takenotes - Quan sát cá nhân sau phần chia sẻ nhóm khác
 bai-tap: 3 - Quan sát + rút ra bài học (cá nhân)
 phase: Sau phần shareout
 time: 15 phút
 input: Phần trình bày của ít nhất 2 nhóm khác trên lớp
 nop-cuoi: Có - file cuối Lab 3
----
 
 # 03 - Take notes: quan sát + bài học cá nhân
 
@@ -20,10 +20,12 @@ nop-cuoi: Có - file cuối Lab 3
 
 ## Phần 1 - Nhóm đã quan sát (cần thay bằng nhóm thực tế)
 
-| # | Tên nhóm / mã 2 học viên | Ngành | 2 sản phẩm họ test |
-|---|---|---|---|
-| 1 | [Cần thay bằng nhóm thực tế trên lớp] | [A/B/C/D] | [...] vs [...] |
-| 2 | [Cần thay bằng nhóm thực tế trên lớp] | [A/B/C/D] | [...] vs [...] |
+
+| #   | Tên nhóm / mã 2 học viên              | Ngành     | 2 sản phẩm họ test |
+| --- | ------------------------------------- | --------- | ------------------ |
+| 1   | [Cần thay bằng nhóm thực tế trên lớp] | [A/B/C/D] | [...] vs [...]     |
+| 2   | [Cần thay bằng nhóm thực tế trên lớp] | [A/B/C/D] | [...] vs [...]     |
+
 
 ## Phần 2 - Điều thấy hay từ nhóm khác
 
@@ -72,3 +74,4 @@ nop-cuoi: Có - file cuối Lab 3
 
 - Tôi sẽ làm khác lần sau: tách verdict theo persona / context, ví dụ "strong cho guest search" khác với "strong cho ecosystem productivity".
 - Lý do: cùng một sản phẩm có thể rất mạnh ở distribution nhưng yếu ở first-turn use case cụ thể.
+

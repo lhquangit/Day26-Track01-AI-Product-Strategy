@@ -4,6 +4,14 @@
 
 - Mã học viên: 2A202600201
 - Họ tên: Nguyễn Quốc Nam
+
+==============================
+
+- Mã học viên: 2A202600097
+- Họ tên: Lê Hồng Quân
+
+===============================
+
 - Track: AI Product Strategy
 
 ## Kết quả cuối
@@ -21,3 +29,4 @@ Xem `./worksheet/02-product-comparison/group-members.md`.
 - Lab 1 đã hoàn thiện theo case **Chegg vs ChatGPT** với hệ thống dẫn chứng công khai.
 - Lab 2 được hoàn thiện theo cặp sản phẩm **Perplexity vs Microsoft Copilot** trong ngành Tìm kiếm, có lượt test công khai và screenshots kèm theo.
 - Workspace này chỉ xác nhận được 1 thành viên; các chỗ liên quan đến teammate thứ hai được đánh dấu rõ thay vì bịa thông tin.
+
