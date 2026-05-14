@@ -1,147 +1,121 @@
 ---
-artifact: 1 — Ghi chú nghiên cứu khi test 2 sản phẩm AI
-bai-tap: 2 — Phân tích 2 sản phẩm AI (nhóm 2 học viên)
-phase: Phase 2 — Thử nghiệm + chụp ảnh + research (20 phút)
-time: 20 phút (xem deck Day 26 slide 18-19 để biết khung giờ chính xác)
-input: group-members.md (nhóm đã chốt ngành + 2 sản phẩm + nhiệm vụ chung)
-nop-cuoi: Không — file trung gian (đầu vào cho `2-comparison-table.md`)
+artifact: 1 - Ghi chu nghien cuu khi test 2 san pham AI
+bai-tap: 2 - Phan tich 2 san pham AI (nhom 2 hoc vien)
+phase: Phase 2 - Thu nghiem + chup anh + research
+time: 20 phut
+input: group-members.md
+nop-cuoi: Khong - file trung gian
 ---
 
-# 1 — Ghi chú nghiên cứu khi test 2 sản phẩm AI
+# 1 - Ghi chu nghien cuu khi test 2 san pham AI
 
-Mục tiêu: trong 20 phút thử nghiệm, 2 thành viên cùng test 2 sản phẩm AI với 1 nhiệm vụ chung. File này ghi lại **quan sát thật** (không phải đánh giá tổng kết) — sẽ làm nền cho bảng so sánh ở bước 2.
+Muc tieu cua file nay la ghi lai **quan sat thuc te** trong mot luot test cong khai ngay **2026-05-14 12:48 +07:00**. Toan bo nhan dinh ben duoi deu chi dua tren:
 
-Lý do làm bước này: slide deck Lab 2 chỉ có sức nặng khi mỗi nhận định dựa trên quan sát cụ thể có ảnh chụp + tên model + thời gian + câu prompt cụ thể. Nếu chỉ "thấy A tốt hơn B" mà không có log → không phòng thủ được khi giảng viên cold-call.
+- anh chup man hinh luu trong `screenshots/`
+- giao dien cong khai truy cap duoc trong workspace nay
+- nguon cong khai hien hanh ve pricing, user base va tang truong
 
-Quy tắc: **không có ảnh chụp / log = không có quan sát**. Mỗi quan sát phải có ảnh tham chiếu hoặc log cụ thể (timestamp, prompt, response excerpt).
+## Phan A - Setup chung
 
-## Quy trình 20 phút
+- **Nhiem vu chung**: Tom tat thi truong edtech Viet Nam nam 2024 trong 5 gach dau dong, neu 3 cong ty tieu bieu, 2 xu huong, va gan link nguon cho tung y. Neu khong chac, hay noi ro.
+- **Cau prompt chinh xac**:
 
 ```text
-2 phút   — Ghi setup chung (nhiệm vụ + câu prompt + tài khoản dùng)
-8 phút   — Test Sản phẩm A: chụp 3-5 ảnh + ghi log
-8 phút   — Test Sản phẩm B: chụp 3-5 ảnh + ghi log
-2 phút   — First impressions: ghi 3 quan sát nổi nhất cho mỗi sản phẩm
+Tom tat thi truong edtech Viet Nam nam 2024 trong 5 gach dau dong. Neu 3 cong ty tieu bieu, 2 xu huong, va gan link nguon cho tung y. Neu khong chac, hay noi ro.
 ```
 
----
+- **Loai tai khoan dung**:
+  - San pham A - Perplexity: guest / chua dang nhap
+  - San pham B - Microsoft Copilot: guest / chua dang nhap
+- **Moi truong test**: browser cong khai trong workspace, chup anh ngay 2026-05-14, mui gio +07:00
 
-## Phần A — Setup chung (2 phút)
+## Phan B - Log San pham A
 
-Trước khi test, 2 thành viên thống nhất các thông số chung. Câu prompt phải **giống y nhau** cho cả 2 sản phẩm — nếu khác sẽ không so sánh được.
+**Ten san pham A**: Perplexity  
+**URL**: https://www.perplexity.ai/  
+**Model duoi mui xe**: giao dien guest chi hien "Model" picker, khong cong khai model cu the o anh chup
 
-- **Nhiệm vụ chung** (1 câu mô tả): [...]
-- **Câu prompt chính xác** (paste y nguyên ở đây — sẽ dán giống vào cả 2 sản phẩm): [...]
-- **Loại tài khoản dùng**:
-  - Sản phẩm A: [free / paid / trial — model nào nếu chọn được]
-  - Sản phẩm B: [free / paid / trial — model nào nếu chọn được]
-- **Trình duyệt + thời gian test** (để dễ tham chiếu ảnh sau này): [...]
+### B.1 - Entry point + lan cham dau
 
----
+- Trang dau la mot o hoi dap dang search-first, ben duoi co nut `Search`, `Computer`, `Model`.
+- Giao dien cho thay nguoi dung khong can dang nhap de bat dau hoi.
+- Co overlay moi dang nhap o ben phai va cookie banner o goc duoi phai, nhung van nhin thay ro entry box.
+- Anh da chup: `screenshots/perplexity-1-entry.png`
 
-## Phần B — Log Sản phẩm A (8 phút)
+### B.2 - Khi go prompt + nhan output
 
-**Tên sản phẩm A**: [...]
-**URL**: [...]
-**Model dưới mui xe** (nếu hiển thị): [...]
+- Thoi gian de co output doc duoc: khoang **12 giay**.
+- Sau khi nhap, prompt nam trong cung o composer, khong bat nguoi dung doi surface.
+- Output co cau truc bullet, co nêu do chac chan va co badge nguon; man hinh output cho thay `10 sources`.
+- Anh da chup:
+  - `screenshots/perplexity-2-input.png`
+  - `screenshots/perplexity-3-output.png`
+  - `screenshots/perplexity-4-source.png`
 
-### B.1 — Entry point + lần chạm đầu
+### B.3 - Phan hoi sau khi nhan output
 
-Trước khi bắt đầu nhiệm vụ, người dùng thấy gì?
+- Co follow-up suggestions ngay ben duoi cau tra loi.
+- Co dau vet ro rang ve citation / source count.
+- Co kha nang tiep tuc hoi tiep trong cung thread.
+- Cookie banner van ton tai, tao mot friction nho o goc duoi phai.
 
-- Trang đầu / màn hình đầu hiển thị gì? [...]
-- Có hint / sample prompt sẵn không? [...]
-- Cần đăng nhập / paywall trước khi dùng không? [...]
-- Ảnh đã chụp: `screenshots/product-A-1-entry.png`
+### B.4 - Quan sat noi
 
-### B.2 — Khi gõ prompt + nhận output
+1. **Entry rat ro use case "ask + search"**: nguoi dung nhin thay ngay o hoi dap va nut `Search`, phu hop tac vu tim kiem co dan nguon. Tham chieu: `perplexity-1-entry.png`.
+2. **Friction vat ly thap**: chi can mot o nhap va Enter la co cau tra loi, khong bi yeu cau dang nhap hoac xac minh nguoi dung trong first pass. Tham chieu: `perplexity-2-input.png`.
+3. **Trust signal tot hon doi thu trong luot test nay**: output hien `10 sources`, co follow-up, va trong cau tra loi co note do chac chan. Tham chieu: `perplexity-3-output.png`, `perplexity-4-source.png`.
 
-- Thời gian phản hồi: ___ giây
-- Có hiển thị "AI đang nghĩ..." / streaming hay đứng yên? [...]
-- Output dài bao nhiêu (số câu / dòng / từ)? ___
-- Output có dẫn nguồn không? [có / không / có nhưng nguồn ảo]
-- Có hiển thị disclaimer / cảnh báo không (vd: "có thể sai", "kiểm tra lại")? [...]
-- Ảnh đã chụp: `screenshots/product-A-2-input.png` + `screenshots/product-A-3-output.png`
+## Phan C - Log San pham B
 
-### B.3 — Phản hồi sau khi nhận output
+**Ten san pham B**: Microsoft Copilot  
+**URL**: https://copilot.microsoft.com/  
+**Model duoi mui xe**: mode mac dinh `Smart`, giao dien guest khong hien model chi tiet
 
-- Có nút "regenerate" / "thử lại" không? [...]
-- Có nút copy / export ra format khác không? [...]
-- Có gợi ý câu hỏi tiếp theo không? [...]
-- Có lưu lịch sử để truy lại không? [...]
-- Có thumb up / thumb down để feedback không? [...]
+### C.1 - Entry point + lan cham dau
 
-### B.4 — Quan sát nổi (3 quan sát)
+- Trang dau co o `Message Copilot`, mode `Smart`, va mot so starter prompts.
+- Giao dien guest cho phep bat dau ma chua can dang nhap.
+- Anh da chup: `screenshots/copilot-1-entry.png`
 
-Ghi 3 quan sát ấn tượng nhất khi dùng. Mỗi quan sát kèm tham chiếu (ảnh hoặc log):
+### C.2 - Khi go prompt + nhan output
 
-1. [Quan sát + tham chiếu]
-2. [Quan sát + tham chiếu]
-3. [Quan sát + tham chiếu]
+- Prompt duoc nhap thanh cong, nhung ngay sau khi gui thi giao dien bi chen boi cookie/privacy modal va sau do la human verification cua Cloudflare.
+- Sau **16 giay cho**, he thong khong tra ra cau tra loi noi dung; thay vao do la man hinh `Verify you are human`.
+- Anh da chup:
+  - `screenshots/copilot-2-input.png`
+  - `screenshots/copilot-3-output.png`
 
----
+### C.3 - Phan hoi sau khi nhan output
 
-## Phần C — Log Sản phẩm B (8 phút)
+- Copilot co trang thai guest, nhung trong luot test nay khong deliver duoc answer o first pass.
+- Co dau hieu friction lon ngay giua workflow: privacy modal + security challenge.
+- Tinh nang share / library / tasks hien san, cho thay san pham muon mo rong thanh assistant da nhiem, khong chi la answer engine.
 
-**Tên sản phẩm B**: [...]
-**URL**: [...]
-**Model dưới mui xe** (nếu hiển thị): [...]
+### C.4 - Quan sat noi
 
-### C.1 — Entry point + lần chạm đầu
+1. **Entry point dep va than thien**: composer lon, starter prompts ro, mode `Smart` nhin de dung. Tham chieu: `copilot-1-entry.png`.
+2. **Workflow bi cat ngang som**: cookie modal xuat hien dè len ngay luc nguoi dung dang test, sau do Cloudflare challenge chan han first-turn success. Tham chieu: `copilot-2-input.png`, `copilot-3-output.png`.
+3. **Surface rong hon search thuần**: co `Library`, `Tasks`, `Projects`, `Imagine`, nen tham vong san pham lon; doi lai, first-use flow o guest mode kem tap trung hon Perplexity cho tac vu "tim nhanh va co source". Tham chieu: `copilot-1-entry.png`.
 
-- Trang đầu / màn hình đầu hiển thị gì? [...]
-- Có hint / sample prompt sẵn không? [...]
-- Cần đăng nhập / paywall trước khi dùng không? [...]
-- Ảnh đã chụp: `screenshots/product-B-1-entry.png`
+## Phan D - First impressions
 
-### C.2 — Khi gõ prompt + nhận output
+1. **San pham nao cam giac de dung hon lan dau?**  
+   - Perplexity de dung hon trong luot test nay vi khong bi cat ngang boi modal / challenge va dua nguoi dung thang vao tac vu tim kiem.
 
-- Thời gian phản hồi: ___ giây
-- Có hiển thị "AI đang nghĩ..." / streaming hay đứng yên? [...]
-- Output dài bao nhiêu (số câu / dòng / từ)? ___
-- Output có dẫn nguồn không? [có / không / có nhưng nguồn ảo]
-- Có hiển thị disclaimer / cảnh báo không? [...]
-- Ảnh đã chụp: `screenshots/product-B-2-input.png` + `screenshots/product-B-3-output.png`
+2. **San pham nao cho output dang tin hon?**  
+   - Perplexity thang theo bang chung quan sat duoc, vi no thuc su tra ra answer, hien source count, va neu do chac chan. Copilot khong co answer de so sanh trong first pass guest mode.
 
-### C.3 — Phản hồi sau khi nhận output
+3. **Cau hoi nhom chua tra loi duoc sau 20 phut test**  
+   - Copilot se cho output ra sao neu qua duoc challenge va dong privacy modal?
+   - Chat guest mode cua Copilot co source citation nhat quan voi truy van mang tinh nghien cuu khu vuc Viet Nam khong?
+   - Perplexity co duy tri do manh citation khi prompt chuyen sang tac vu phuc tap hon khong?
 
-- Có nút "regenerate" / "thử lại" không? [...]
-- Có nút copy / export ra format khác không? [...]
-- Có gợi ý câu hỏi tiếp theo không? [...]
-- Có lưu lịch sử để truy lại không? [...]
-- Có thumb up / thumb down để feedback không? [...]
+## Nguon business signal da tra cuu song song
 
-### C.4 — Quan sát nổi (3 quan sát)
-
-1. [Quan sát + tham chiếu]
-2. [Quan sát + tham chiếu]
-3. [Quan sát + tham chiếu]
-
----
-
-## Phần D — First impressions (2 phút)
-
-Sau khi test cả 2, mỗi thành viên trả lời nhanh 3 câu:
-
-1. **Sản phẩm nào "cảm giác" dễ dùng hơn lần đầu? Tại sao?**
-   - [...]
-
-2. **Sản phẩm nào "cảm giác" cho output đáng tin hơn? Tại sao?**
-   - [...]
-
-3. **Câu hỏi mà nhóm CHƯA trả lời được sau 20 phút test** (sẽ cần đào thêm khi dựng slide):
-   - [...]
-
-> Đây là first impressions — chưa phải nhận định. Khi sang `2-comparison-table.md` sẽ đối chiếu chéo với số liệu cụ thể.
-
----
-
-## Bảng kiểm trước khi sang Bước 2
-
-- [ ] Câu prompt giống y nhau cho cả 2 sản phẩm.
-- [ ] Đã chụp tối thiểu 3 ảnh cho mỗi sản phẩm (entry + input + output).
-- [ ] Mỗi quan sát có ảnh / log tham chiếu.
-- [ ] First impressions ghi rõ — không dùng từ chung chung như "hay hơn", "tốt hơn" mà không kèm lý do.
-- [ ] Đã trả lời 5 câu trong `group-members.md` về phân chia trách nhiệm.
-
-Sang `2-comparison-table.md` để dựng bảng so sánh 2 sản phẩm theo 5 mục của slide deck.
+- Perplexity Pro Perks / pricing surface: https://www.perplexity.ai/properks/
+- Perplexity ARR: CNBC, 2025-03-20
+- Perplexity query volume growth: TechCrunch, 2025-06-05
+- Microsoft Copilot official product/pricing docs:
+  - https://support.microsoft.com/en-us/topic/what-s-the-difference-between-the-microsoft-copilot-experiences-cfff4791-694a-4d90-9c9c-1eb3fb28e842
+  - https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals
+- Microsoft Copilot user base: CNBC, 2025-07-30; TechCrunch, 2026-01-29

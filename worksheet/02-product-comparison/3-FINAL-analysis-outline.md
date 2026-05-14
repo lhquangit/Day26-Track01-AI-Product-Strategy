@@ -1,268 +1,220 @@
 ---
-artifact: 3 — Outline 5 mục cho slide deck Analysis Report
-bai-tap: 2 — Phân tích 2 sản phẩm AI (nhóm 2 học viên)
-phase: Phase 3 — Dựng slide deck (15 phút)
-time: 10 phút outline + 5 phút build slide
-input: 1-research-notes.md + 2-comparison-table.md + screenshots/ + prompts/08-analysis-report.md
-nop-cuoi: Có gián tiếp — outline này dùng làm cốt cho `analysis-report.pdf` (deliverable bắt buộc)
+artifact: 3 - Outline 5 muc cho slide deck Analysis Report
+bai-tap: 2 - Phan tich 2 san pham AI
+phase: Phase 3 - Dung slide deck
+input: 1-research-notes.md + 2-comparison-table.md + screenshots/
+nop-cuoi: Co gian tiep - dung lam cot cho analysis-report.pdf
 ---
 
-# 3 — Outline 5 mục cho slide deck (S1 → S5 với S5 mở rộng 8 sub-mục)
+# 3 - Outline 5 muc cho slide deck (S1 -> S5 voi S5 mo rong)
 
-Mục tiêu: dựng outline đầy đủ cho slide deck Analysis Report ngay trong file markdown — viết hết nội dung 5 mục ở đây trước, sau đó copy sang slide (pptx / Keynote / Google Slides). Không build slide trước khi outline xong.
+## Thong tin chung cua bao cao
 
-Lý do làm bước này: dựng thẳng slide từ log dễ bị thiếu mục hoặc bị "đẹp ngoài rỗng trong". Outline markdown ép nhóm trả lời từng câu hỏi trước khi nghĩ về thiết kế slide. Khi giảng viên / nhóm khác hỏi "vì sao bạn xếp Sản phẩm A là Promising?" — câu trả lời đã có sẵn trong outline.
-
-Quy tắc: mỗi nhận định trong outline phải nối được về bằng chứng cụ thể (ảnh / log / số liệu công khai). Nếu một sub-mục để trống → quay lại `1-research-notes.md` đào thêm trước khi sang slide.
-
-## Quy trình 15 phút
+- **Ma 2 thanh vien + ten**: 2A202600201 (Nguyen Quoc Nam) + [chua co du lieu trong workspace]
+- **Nganh chon**: A - Tim kiem
+- **Nhiem vu chung da test**: Tom tat thi truong edtech Viet Nam nam 2024 trong 5 gach dau dong, neu 3 cong ty tieu bieu, 2 xu huong, gan link nguon cho tung y, va noi ro neu khong chac.
+- **San pham A**: Perplexity - https://www.perplexity.ai/
+- **San pham B**: Microsoft Copilot - https://copilot.microsoft.com/
+- **Cau prompt chinh xac da dung**:
 
 ```text
-2 phút  — Đọc lại 2-comparison-table.md để có context
-8 phút  — Điền outline 5 mục (S1 → S5)
-4 phút  — Riêng cho S5: mở rộng 8 sub-mục (S5.1 → S5.8)
-1 phút  — Đối chiếu bảng kiểm trước khi build slide
+Tom tat thi truong edtech Viet Nam nam 2024 trong 5 gach dau dong. Neu 3 cong ty tieu bieu, 2 xu huong, va gan link nguon cho tung y. Neu khong chac, hay noi ro.
 ```
 
-> Sau 15 phút outline + đối chiếu, mới mở pptx / Google Slides / Keynote và copy nội dung sang. Slide deck export thành `analysis-report.pdf` ở cùng folder này.
+## S1 - Product Moment
 
----
+### S1.1 - Bang so sanh nhanh
 
-## Thông tin chung của báo cáo
-
-- **Mã 2 thành viên + tên**: [A20-XXXXX (Tên) + A20-YYYYY (Tên)]
-- **Ngành chọn**: [A — Tìm kiếm / B — Lập trình / C — Viết lách / D — Nghiên cứu]
-- **Nhiệm vụ chung đã test**: [...]
-- **Sản phẩm A** (tên + URL): [...]
-- **Sản phẩm B** (tên + URL): [...]
-- **Câu prompt chính xác đã dùng**: [...]
-
----
-
-## S1 — Product Moment (slide 1-2)
-
-Mục đích: định danh rõ 2 sản phẩm, nhiệm vụ chung, điểm gặp đầu (entry point).
-
-### S1.1 — Bảng so sánh nhanh
-
-| Yếu tố | Sản phẩm A | Sản phẩm B |
+| Yeu to | Perplexity | Microsoft Copilot |
 |---|---|---|
-| Tên + URL | [...] | [...] |
-| Entry point (trang đầu nhìn thấy gì) | [...] | [...] |
-| Ý định người dùng (vào để làm gì) | [...] | [...] |
-| Surface chính (chat / form / canvas / IDE / khác) | [...] | [...] |
-| Có cần đăng nhập / paywall ngay không | [...] | [...] |
+| Ten + URL | Perplexity - perplexity.ai | Microsoft Copilot - copilot.microsoft.com |
+| Entry point | O `Ask anything` + nut `Search` + search-first framing | O `Message Copilot` + starter prompts + mode `Smart` |
+| Y dinh nguoi dung | Tim cau tra loi co dan nguon tren web | Tro ly tong quat, creative + search + productivity |
+| Surface chinh | Chat/search hybrid | Assistant/chat hub |
+| Co can dang nhap / paywall ngay khong | Khong | Khong, nhung guest flow gap privacy modal va challenge sau khi gui |
 
-### S1.2 — Bằng chứng (ảnh tham chiếu)
+### S1.2 - Bang chung
 
-- `screenshots/product-A-1-entry.png` — mô tả 1 câu: [...]
-- `screenshots/product-B-1-entry.png` — mô tả 1 câu: [...]
+- `screenshots/perplexity-1-entry.png` - entry box va search-first framing.
+- `screenshots/copilot-1-entry.png` - assistant-style composer va starter prompts.
 
-### S1.3 — Nhận định so sánh entry point (2-3 câu)
+### S1.3 - Nhan dinh so sanh entry point
 
-[Sản phẩm nào tạo first impression tốt hơn? Vì sao? Liên kết với ý định người dùng.]
+Perplexity cho thay y dinh san pham ro hon cho use case "tim va tong hop". Copilot dep va rong hon, nhung cung vi rong hon nen entry point it specific hon cho bai toan nghien cuu co nguon.
 
----
+## S2 - Workflow Evidence
 
-## S2 — Workflow Evidence (slide 3-4)
-
-Mục đích: hiển thị luồng người dùng + 3 friction areas (Lens 3).
-
-### S2.1 — Luồng người dùng (trước / trong / sau khi dùng AI)
+### S2.1 - Luong nguoi dung
 
 ```text
-TRƯỚC khi gặp AI:
-- [Người dùng đang làm gì, trên công cụ nào]
+TRUOC khi gap AI:
+- Nguoi dung can tim nhanh tong quan thi truong EdTech Viet Nam 2024 va muon co source de cross-check.
 
-TRONG khi dùng Sản phẩm A:
-1. [Bước 1: …]
-2. [Bước 2: …]
-3. [Bước 3: …]
+TRONG khi dung Perplexity:
+1. Mo trang guest.
+2. Dan prompt vao entry box.
+3. Nhan output trong ~12 giay, thay source count va follow-up.
 
-TRONG khi dùng Sản phẩm B:
-1. [Bước 1: …]
-2. [Bước 2: …]
-3. [Bước 3: …]
+TRONG khi dung Microsoft Copilot:
+1. Mo trang guest.
+2. Dan prompt vao o Message Copilot.
+3. Sau khi gui, bi privacy modal va human verification chan truoc khi co answer.
 
-SAU khi dùng AI:
-- [Người dùng làm gì với output: copy, paste, gửi cho ai, lưu ở đâu]
+SAU khi dung AI:
+- Voi Perplexity, nguoi dung co the tiep tuc hoi va truy source.
+- Voi Copilot, nguoi dung phai giai quyet gate verification truoc khi danh gia ket qua.
 ```
 
-### S2.2 — 3 Friction Areas (Lens 3)
+### S2.2 - 3 Friction Areas
 
-| Friction | Sản phẩm A | Sản phẩm B |
+| Friction | Perplexity | Microsoft Copilot |
 |---|---|---|
-| **Physical load** (số click, tab, copy-paste) | [...] | [...] |
-| **Cognitive burden** (cần học prompt eng. / nhớ ngữ cảnh giữa lượt chat) | [...] | [...] |
-| **User workarounds** (nhóm phải tự làm gì để bù yếu điểm) | [...] | [...] |
+| Physical load | Thap; few clicks, no login required | Cao hon; modal + verification chen vao workflow |
+| Cognitive burden | Thap; prompt vao, nhan search answer | Trung binh-cao; nhieu surface, mode, va challenge |
+| User workarounds | Bo qua cookie/sign-in overlay | Phai vuot privacy gate va human verification |
 
-### S2.3 — Bằng chứng
+### S2.3 - Bang chung
 
-- `screenshots/product-A-2-input.png` + `screenshots/product-A-3-output.png`
-- `screenshots/product-B-2-input.png` + `screenshots/product-B-3-output.png`
+- `screenshots/perplexity-2-input.png`
+- `screenshots/perplexity-3-output.png`
+- `screenshots/copilot-2-input.png`
+- `screenshots/copilot-3-output.png`
 
-### S2.4 — Nhận định: sản phẩm nào giảm friction tốt hơn? Tại sao? (3-4 câu)
+### S2.4 - Nhan dinh
 
-[...]
+Perplexity giam friction tot hon ro ret trong task nay, khong phai vi giao dien dep hon, ma vi no di thang vao "lam xong bai" nhanh hon. Copilot bi tru hao UX ngay giua workflow, nen nhan dinh ve quality answer chua kip xay ra da bi security friction lấn át.
 
----
+## S3 - Output & Trust
 
-## S3 — Output & Trust (slide 5-6)
+### S3.1 - Chat luong output
 
-Mục đích: đánh giá chất lượng output + 6 tín hiệu đáng tin.
+- **Perplexity**:
+  - Tra loi dung bai toan tong hop.
+  - Co source count va follow-up.
+  - Co note uncertainty thay vi khang dinh qua muc.
+- **Microsoft Copilot**:
+  - Khong co output noi dung trong first pass guest mode.
+  - Vi vay, bai test nay danh gia Copilot theo "reliability of reaching an answer", khong the cham content quality.
 
-### S3.1 — Chất lượng output
+### S3.2 - 6 Tin hieu dang tin
 
-Cho mỗi sản phẩm, trả lời 3 câu:
-
-- **Sản phẩm A**:
-  - Output có **trả lời đúng câu hỏi** chính không? [...]
-  - Output có **bịa thông tin** không (hallucination)? Nếu có, chỗ nào? [...]
-  - Output có **đầy đủ** hay nửa vời? [...]
-- **Sản phẩm B**:
-  - Output có **trả lời đúng câu hỏi** chính không? [...]
-  - Output có **bịa thông tin** không? [...]
-  - Output có **đầy đủ** hay nửa vời? [...]
-
-### S3.2 — 6 Tín hiệu đáng tin (đối chiếu)
-
-| Tín hiệu | Sản phẩm A | Sản phẩm B |
+| Tin hieu | Perplexity | Microsoft Copilot |
 |---|---|---|
-| 1. Dẫn nguồn (citation mở được, đúng nội dung) | [có / không / có nhưng nguồn ảo] | [...] |
-| 2. Disclaimer khi không chắc | [...] | [...] |
-| 3. Fallback / dừng lại khi out-of-scope | [...] | [...] |
-| 4. Consistency (chạy 2 lần cùng prompt) | [...] | [...] |
-| 5. User control (sửa, dừng, regenerate, undo) | [...] | [...] |
-| 6. Explanation (giải thích "vì sao AI nói thế") | [...] | [...] |
+| 1. Citation | Co, thay `10 sources` | Chua quan sat duoc |
+| 2. Disclaimer | Co, nêu do chac chan | Chua quan sat duoc |
+| 3. Fallback | Co xu huong noi ro uncertainty | Dung o human verification |
+| 4. Consistency | Chua test lan 2 | Chua qua duoc first pass |
+| 5. User control | Co follow-up va thread | Co ecosystem controls nhung chua toi muc answer |
+| 6. Explanation | Co source-based answer surface | Chua quan sat duoc |
 
-### S3.3 — Nhận định: sản phẩm nào tạo trust mạnh hơn? Vì sao? (3-4 câu)
+### S3.3 - Nhan dinh
 
-[...]
+Perplexity tao trust manh hon vi no cho thay duoc ca "nguon" lan "do chac chan". Copilot co brand trust va ecosystem trust, nhung trong bai test guest mode nay, trust o tang answer khong the xac lap vi san pham chua deliver answer.
 
----
+## S4 - Business Signal
 
-## S4 — Business Signal (slide 7)
+### S4.1 - Dinh vi tam giac
 
-Mục đích: định vị 2 sản phẩm trên Cost-Capability-Speed + pricing pattern.
+- **Perplexity**: can bang  
+  Ly do: free search utility du manh de hook, Pro $20/thang de upsell chieu sau va premium data.
+- **Microsoft Copilot**: capability va distribution-first  
+  Ly do: consumer chat free, nhung value tra phi duoc day vao goi Microsoft 365 va ecosystem usage higher-than-free.
 
-### S4.1 — Định vị tam giác (cho mỗi sản phẩm)
+### S4.2 - Pricing pattern
 
-- **Sản phẩm A**: [rẻ-nhanh / mạnh-đắt / cân bằng] — model dưới mui xe: [...] — lý do định vị 1 câu: [...]
-- **Sản phẩm B**: [rẻ-nhanh / mạnh-đắt / cân bằng] — model dưới mui xe: [...] — lý do định vị 1 câu: [...]
-
-### S4.2 — Pricing pattern
-
-| Yếu tố | Sản phẩm A | Sản phẩm B |
+| Yeu to | Perplexity | Microsoft Copilot |
 |---|---|---|
-| Mô hình giá | [Free / Freemium / Seat-based / Usage / Outcome / Hybrid] | [...] |
-| Giá entry (free tier giới hạn gì) | [...] | [...] |
-| Giá trả phí (gói chính + giá) | [...] | [...] |
-| Paywall xuất hiện ở đâu (khi hết quota / tính năng nâng cao / etc.) | [...] | [...] |
+| Mo hinh gia | Freemium + Pro subscription | Free chat + Microsoft 365 paid plans / higher usage |
+| Gia entry | Free guest search | Free consumer app |
+| Gia tra phi | Pro surface nhan `just $20/month` | Microsoft 365 Personal $99.99/year; Family/Premium cao hon; higher AI usage trong paid plans |
+| Paywall xuat hien o dau | Nhu cau nghien cuu sau / premium features | Gia tri tra phi gan voi app suite, storage, va higher usage |
 
-### S4.3 — Nhận định: chiến lược kinh doanh của 2 sản phẩm khác nhau thế nào? (2-3 câu)
+### S4.3 - Nhan dinh
 
-[...]
+Perplexity ban mot san pham tim kiem AI ngay lap tuc va don gia. Microsoft ban gia tri AI thong qua ecosystem rong hon, nen pricing signal cua Copilot kho tach khoi Microsoft 365. Dieu nay giup Microsoft co distribution moat, nhung cung lam product story it "thuần answer engine" hon.
 
----
+## S5 - Product Judgment
 
-## S5 — Product Judgment (slide 8-12 — phần đậm nhất)
+### S5.1 - Verdict
 
-Mục đích: ra verdict + vận dụng 4 Lens + Spark/Loop/System + Niche/Feature Map + liên hệ Lab 1.
+- **Perplexity**: Strong - Vi giai quyet dung use case, co source, va tao duoc trust ngay tu first pass.
+- **Microsoft Copilot**: Promising / At Risk for guest research - Vi ambition va distribution lon, nhung guest-mode workflow that bai trong bai test nay.
 
-S5 mở rộng thành 8 sub-mục — bắt buộc xong **S5.1, S5.6, S5.7, S5.8**. Nhóm khá phải hoàn thành cả 8 sub-mục. Nhóm Đạt có thể ghi "không có nguồn công khai" cho 1-2 số liệu ở S5.2-S5.5 nhưng phải ghi rõ.
+### S5.2 - User base + tang truong
 
-### S5.1 — Verdict (BẮT BUỘC)
+- **Perplexity**:
+  - TechCrunch ngay 2025-06-05: Perplexity da xu ly **780 million queries trong thang 5/2025**, tuong duong khoang **30 million queries/day**, va CEO noi tang truong tren **20% month-over-month**.
+  - Ghi chu: khong co MAU cong khai on dinh, nen query volume la proxy cong khai manh hon.
+- **Microsoft Copilot**:
+  - CNBC ngay 2025-07-30: "Copilot products" cua Microsoft co **100 million monthly active users**.
+  - TechCrunch ngay 2026-01-29: Microsoft noi tong user base Copilot da tang len **150 million total**, va daily users o consumer products **nearly 3x YoY**.
 
-Cho mỗi sản phẩm, chọn 1 trong 4: **Strong** / **Promising** / **Weak** / **At Risk**, kèm lý do 1 câu.
+### S5.3 - Doanh thu / pricing power
 
-- **Sản phẩm A**: [Verdict] — Lý do: [...]
-- **Sản phẩm B**: [Verdict] — Lý do: [...]
+- **Perplexity**:
+  - CNBC ngay 2025-03-20: ARR cua Perplexity "just under **$100 million**".
+  - Pricing power den tu Pro subscription $20/thang va premium data / deeper search.
+- **Microsoft Copilot**:
+  - Khong co doanh thu consumer Copilot tach rieng cong khai trong cac nguon da tra.
+  - Pricing power the hien gian tiep qua Microsoft 365 plans va usage tiers, khong phai qua mot consumer subscription don le de do.
 
-### S5.2 — User base + tăng trưởng
+### S5.4 - Moat phan tich
 
-Số liệu công khai (MAU, DAU, paid users, growth rate) cho cả 2 sản phẩm + nguồn (URL + ngày).
-
-- **Sản phẩm A**: [MAU/DAU/users — kèm nguồn]
-- **Sản phẩm B**: [MAU/DAU/users — kèm nguồn]
-
-> Nếu không tìm được số liệu công khai, ghi: "Không có nguồn công khai sau khi tra ở [tên 2-3 nguồn]". Không bịa.
-
-### S5.3 — Doanh thu / pricing power
-
-ARR / MRR công khai + pricing strategy (freemium / premium / enterprise).
-
-- **Sản phẩm A**: [ARR/MRR — nguồn] + chiến lược pricing: [...]
-- **Sản phẩm B**: [ARR/MRR — nguồn] + chiến lược pricing: [...]
-
-### S5.4 — Moat phân tích (5 loại)
-
-Đánh giá 5 loại moat (data / network / switching cost / brand / distribution) cho từng sản phẩm. Mỗi moat đánh dấu: **mạnh** / **trung bình** / **yếu / dễ bị copy**.
-
-| Moat | Sản phẩm A | Sản phẩm B |
+| Moat | Perplexity | Microsoft Copilot |
 |---|---|---|
-| Data (proprietary data flywheel) | [...] | [...] |
-| Network effects | [...] | [...] |
-| Switching cost (chi phí đổi sang sản phẩm khác) | [...] | [...] |
-| Brand | [...] | [...] |
-| Distribution (kênh tiếp cận user) | [...] | [...] |
+| Data | Trung binh - source graph va query logs co gia tri, nhung model phu thuoc partly vao external providers | Trung binh-manh - query logs + usage across Windows, Edge, Bing, M365 |
+| Network effects | Yeu | Yeu-trung binh |
+| Switching cost | Yeu-trung binh | Trung binh-manh neu da song trong M365 / Windows |
+| Brand | Trung binh, tang nhanh trong niche AI search | Manh nhờ Microsoft brand |
+| Distribution | Trung binh | Rat manh nhờ Windows, Edge, Bing, Microsoft 365 |
 
-### S5.5 — Data flywheel + feedback loop
+### S5.5 - Data flywheel + feedback loop
 
-Hành động người dùng nào feed lại model? Loop có compounding (mỗi lần dùng → cải thiện model → giá trị cao hơn → người dùng dùng tiếp) không?
+- **Perplexity**: moi truy van search + click vao source + follow-up giup san pham hoc ve y dinh tim kiem va citation preferences. Loop co dau hieu compounding, nhung moat data chua kho copy bang distribution.
+- **Microsoft Copilot**: loop data manh hon neu tinh ca M365, Bing, Windows va shopping/search surfaces. Van de la feedback loop manh khong tu dong bien thanh first-turn UX tot trong guest mode.
 
-- **Sản phẩm A**: [Mô tả loop 1-2 câu — có compounding không?]
-- **Sản phẩm B**: [Mô tả loop 1-2 câu — có compounding không?]
+### S5.6 - Niche Down + AI Feature Map
 
-### S5.6 — Niche Down + AI Feature Map (BẮT BUỘC)
+- **Perplexity**:
+  - Niche: AI answer engine cho nguoi can tim nhanh, co source, co follow-up.
+  - User Value: Cao - bai test thanh cong va co citation.
+  - User Alignment: Cao - entry point khop dung y dinh search.
+  - Business Value: Cao - co free-to-Pro path ro.
+- **Microsoft Copilot**:
+  - Niche: general AI companion trong ecosystem Microsoft.
+  - User Value: Trung binh trong guest search use case nay, vi answer khong xuat hien.
+  - User Alignment: Trung binh - san pham rong, khong zoom vao search-first.
+  - Business Value: Cao - goi voi Microsoft 365, distribution rong.
 
-- **Sản phẩm A**:
-  - Niche cụ thể (đối tượng người dùng + use case): [...]
-  - AI Feature Map (User Value × User Alignment × Business Value):
-    - User Value: [Cao / Trung / Thấp] — [...]
-    - User Alignment: [Cao / Trung / Thấp] — [...]
-    - Business Value: [Cao / Trung / Thấp] — [...]
-- **Sản phẩm B**:
-  - Niche cụ thể: [...]
-  - AI Feature Map:
-    - User Value: [Cao / Trung / Thấp] — [...]
-    - User Alignment: [Cao / Trung / Thấp] — [...]
-    - Business Value: [Cao / Trung / Thấp] — [...]
+### S5.7 - Spark -> Loop -> System
 
-### S5.7 — Spark → Loop → System (BẮT BUỘC)
+- **Perplexity**: Loop  
+  Ly do: da co repeat behavior ro (search -> source -> follow-up -> deeper search), monetization va premium data dang day loop manh len.  
+  Du bao 12 thang toi: tiep tuc mo rong tu answer engine sang browser / discovery system.
 
-Mỗi sản phẩm đang ở giai đoạn nào trong 3 giai đoạn?
+- **Microsoft Copilot**: System  
+  Ly do: nam trong mot he sinh thai san pham lon hon nhieu mot app search; co distribution va app-level embedding ro.  
+  Du bao 12 thang toi: se tiep tuc tang usage nho bundling, nhung se can giam friction o first-use consumer flows.
 
-- **Sản phẩm A**: [Spark / Loop / System] — Lý do: [...] — Dự báo 12 tháng tới: [...]
-- **Sản phẩm B**: [Spark / Loop / System] — Lý do: [...] — Dự báo 12 tháng tới: [...]
+### S5.8 - Lien he Lab 1
 
-### S5.8 — Liên hệ Lab 1 (BẮT BUỘC)
+- **Lien he voi Chegg vs ChatGPT**:
+  - Bai hoc Lab 1 la: khi user expectation chuyen tu "toi tu lam tren giao dien cu" sang "AI lam ngay cho toi", san pham nao rut ngan khoang cach den answer se an diem lon.
+  - Perplexity dang song dung theo expectation moi do: search khong chi "tim link" ma "tong hop co source".
+  - Copilot co nguy co giong cac case bi squeeze neu product story qua rong, con first-turn answer lai chua sac bang san pham dung-niche.
+- **Rui ro disruption-style**:
+  - Perplexity co the bi big tech squeeze o distribution.
+  - Copilot it lo distribution risk hon, nhung co risk bi user danh gia la "broad but not sharp" neu workflow research search chua tot bang specialist.
 
-Đối chiếu 2 sản phẩm với case bigtech-disruption mỗi thành viên đã làm ở Lab 1:
+## Nguon tham khao chinh
 
-- Sản phẩm A có rủi ro disruption tương tự case nào của nhóm? [...]
-- Sản phẩm B có rủi ro disruption tương tự case nào của nhóm? [...]
-- Bài học rút từ Lab 1 áp dụng được cho 2 sản phẩm này thế nào? (2-3 câu): [...]
-
----
-
-## Bảng kiểm trước khi build slide
-
-- [ ] S1 → S4 đã điền đầy đủ.
-- [ ] S5.1 + S5.6 + S5.7 + S5.8 đã hoàn thành (4 sub-mục bắt buộc).
-- [ ] S5.2 → S5.5 đã hoàn thành (hoặc đã ghi rõ "không có nguồn công khai" cho ô trống).
-- [ ] Mỗi nhận định nối được về ảnh / log / số liệu cụ thể.
-- [ ] Verdict ở S5.1 nhất quán với phân tích moat ở S5.4 và giai đoạn ở S5.7.
-- [ ] 2 thành viên cùng đồng ý với toàn bộ outline.
-
----
-
-## Sau khi xong outline
-
-1. Mở pptx / Keynote / Google Slides / Figma.
-2. Tạo 12-15 slide bám theo cấu trúc S1 → S5 ở trên (mỗi mục 1-3 slide).
-3. **Mỗi slide có ít nhất 1 ảnh tham chiếu** (từ `screenshots/`).
-4. Export PDF → lưu thành `analysis-report.pdf` trong cùng folder này.
-5. Nếu dùng Google Slides công khai, lưu link vào `analysis-report-link.md` (tuỳ chọn).
-6. 2 thành viên cùng copy `analysis-report.pdf` + `group-members.md` về repo cá nhân của mình.
-
-> Tham khảo `prompts/08-analysis-report.md` nếu cần AI hỗ trợ build slide từ outline này.
+1. Perplexity live product: https://www.perplexity.ai/
+2. Perplexity shared result tested on 2026-05-14: https://www.perplexity.ai/search/99f1501c-af5b-4b72-aeb6-095e91e98ad5
+3. Perplexity Pro Perks / pricing surface: https://www.perplexity.ai/properks/
+4. TechCrunch, 2025-06-05 - Perplexity received 780 million queries last month, CEO says
+5. CNBC, 2025-03-20 - Perplexity in talks to double valuation to $18 billion via new funding
+6. Microsoft Copilot live product: https://copilot.microsoft.com/
+7. Microsoft Support - What's the difference between the Microsoft Copilot experiences?
+8. Microsoft pricing for individuals: https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals
+9. CNBC, 2025-07-30 - Microsoft Q4 earnings report 2025
+10. TechCrunch, 2026-01-29 - Satya Nadella insists people are using Microsoft's Copilot AI a lot

@@ -1,65 +1,51 @@
 ---
-artifact: group-members — Danh sách thành viên nhóm Lab 2
-bai-tap: 2 — Phân tích sản phẩm AI (nhóm)
-phase: Khai báo nhóm
-nop-cuoi: Có — bắt buộc (nộp kèm analysis-report.pdf)
+artifact: group-members - Danh sach thanh vien nhom Lab 2
+bai-tap: 2 - Phan tich san pham AI (nhom)
+phase: Khai bao nhom
+nop-cuoi: Co - bat buoc (nop kem analysis-report.pdf)
 ---
 
-# Thành viên nhóm Lab 2
+# Thanh vien nhom Lab 2
 
-Lab 2 làm theo nhóm 2 học viên. Mỗi học viên có 1 repo riêng (`Day26-MãHọcViên`), nhưng nội dung Lab 2 (slide deck + screenshots + research notes) là sản phẩm chung — mỗi học viên copy bản chung về repo cá nhân của mình.
+Lab 2 duoc hoan thien tren repo nay tu mot workspace chi xac nhan duoc **1 thanh vien**. De tranh bịa thong tin, dong thu 2 duoc giu o trang thai "chua co du lieu trong workspace". Phan phan tich, screenshots va PDF van da duoc hoan thien day du theo mot luot test thuc te.
 
-File này khai báo 2 thành viên trong nhóm + phân công thực hiện.
+## Danh sach thanh vien
 
----
-
-## Danh sách thành viên
-
-| # | Mã học viên | Họ tên đầy đủ | Phân công chính |
+| # | Ma hoc vien | Ho ten day du | Phan cong chinh |
 |---|---|---|---|
-| 1 | A20-XXXXX | [...] | [...] |
-| 2 | A20-XXXXX | [...] | [...] |
+| 1 | 2A202600201 | Nguyen Quoc Nam | Chot prompt, test Perplexity, tong hop phan tich, dung PDF |
+| 2 | Chua co du lieu trong workspace | Chua co du lieu trong workspace | Can bo sung neu nop dung doi hinh 2 nguoi tren lop |
 
----
+## Nhiem vu thu nghiem chung
 
-## Nhiệm vụ thử nghiệm chung
+Nhiem vu chung cho ca 2 san pham la: **tom tat thi truong edtech Viet Nam nam 2024 trong 5 gach dau dong, neu 3 cong ty tieu bieu, 2 xu huong, gan link nguon cho tung y, va noi ro neu khong chac**.
 
-[Mô tả 1-2 câu nhiệm vụ chung mà cả 2 thành viên cùng test trên 2 sản phẩm. Ví dụ: "Viết bản tóm tắt 200 từ về tác động của AI lên ngành ed-tech, có dẫn nguồn."]
+**Nganh chon**: A - Tim kiem
 
-**Ngành chọn**: [A — Tìm kiếm / B — Lập trình / C — Viết lách / D — Nghiên cứu]
+**San pham A**: Perplexity - https://www.perplexity.ai/
 
-**Sản phẩm A**: [tên + URL]
+**San pham B**: Microsoft Copilot - https://copilot.microsoft.com/
 
-**Sản phẩm B**: [tên + URL]
+## Phan chia screenshot
 
----
+- San pham A -> Nguyen Quoc Nam
+- San pham B -> Nguyen Quoc Nam
 
-## Phân chia screenshot
+## Ghi chu
 
-- Sản phẩm A → [Mã học viên nào phụ trách chụp]
-- Sản phẩm B → [Mã học viên nào phụ trách chụp]
+- Workspace nay chi co 1 thanh vien da xac dinh, nen bai duoc luu theo goc nhin cua nguoi test chinh.
+- Neu can nop dung format "2 thanh vien", hay thay dong so 2 bang ma hoc vien va ten that sau khi doi chieu lai nhom tren lop.
+- Slide deck `analysis-report.pdf` va folder `screenshots/` duoc tao tu cung mot bo bang chung ngay 2026-05-14.
 
----
+## Cau truc Analysis Report - S5 mo rong
 
-## Ghi chú
+Slide deck Analysis Report co 5 muc bat buoc (S1 -> S5). Muc S5 (Product Judgment) duoc mo rong thanh 8 muc con de bam sat 5 chieu dinh luong da hoc o Lab 1.
 
-- Mỗi thành viên copy folder `02-product-comparison/` (đã hoàn thiện) vào repo cá nhân của mình.
-- Slide deck `analysis-report.pdf` và `analysis-report-link.md` (nếu có) là sản phẩm chung — 2 thành viên cùng tên trong credits của slide deck.
-- File `group-members.md` này phải giống nhau ở cả 2 repo cá nhân (cùng nội dung, cùng 2 mã học viên).
-
----
-
-## Cấu trúc Analysis Report — S5 mở rộng
-
-Slide deck Analysis Report có 5 mục bắt buộc (S1 → S5). Mục S5 (Product Judgment) được mở rộng thành 8 mục con để bám sát 5 chiều phân tích định lượng (user base, tăng trưởng, doanh thu, moat, data flywheel) đã làm ở Lab 1 Phần B.
-
-- **S5.1 Verdict** — mỗi sản phẩm xếp loại Strong / Promising / Weak / At Risk, kèm lý do 1 câu.
-- **S5.2 User base + tăng trưởng** — số liệu công khai (MAU, DAU, paid users, growth rate) cho cả 2 sản phẩm + nguồn.
-- **S5.3 Doanh thu / pricing power** — mức giá so với value cung cấp; ARR/MRR nếu công khai; pricing strategy (freemium, premium, enterprise).
-- **S5.4 Moat phân tích** — đánh giá 5 loại moat (data / network / switching cost / brand / distribution) cho từng sản phẩm; moat nào mạnh, moat nào dễ bị copy.
-- **S5.5 Data flywheel + feedback loop** — hành động người dùng nào feed lại model; loop có compounding không; sản phẩm có thu thập feedback systematically.
-- **S5.6 Niche Down + AI Feature Map** — sản phẩm có niche rõ không; map User Value / User Alignment / Business Value cho từng sản phẩm.
-- **S5.7 Spark → Loop → System** — mỗi sản phẩm đang ở giai đoạn nào; dự báo 12 tháng tới.
-- **S5.8 Liên hệ Lab 1 case** — 2 sản phẩm có rủi ro disruption-style tương tự case Lab 1 không; bài học rút từ Lab 1 áp dụng được gì?
-
-Nhóm bắt buộc xong S5.1, S5.6, S5.7, S5.8 (giữ nguyên yêu cầu cốt lõi như bản gốc). S5.2–S5.5 là phần mở rộng cho yêu cầu phân tích sâu — nhóm khá phải hoàn thành đủ; nhóm Đạt có thể chấp nhận ghi "không có nguồn công khai" cho 1-2 số liệu, miễn có ghi rõ.
+- **S5.1 Verdict** - moi san pham xep loai Strong / Promising / Weak / At Risk, kem ly do 1 cau.
+- **S5.2 User base + tang truong** - so lieu cong khai (MAU, query volume, tang truong) cho 2 san pham + nguon.
+- **S5.3 Doanh thu / pricing power** - ARR neu co cong khai; neu khong thi ghi ro khong co so lieu tach rieng.
+- **S5.4 Moat phan tich** - danh gia 5 loai moat: data, network, switching cost, brand, distribution.
+- **S5.5 Data flywheel + feedback loop** - hanh vi nguoi dung nao feed lai model va loop co compounding khong.
+- **S5.6 Niche Down + AI Feature Map** - niche cu the va map User Value / User Alignment / Business Value.
+- **S5.7 Spark -> Loop -> System** - san pham dang o giai doan nao va du bao 12 thang toi.
+- **S5.8 Lien he Lab 1 case** - rui ro disruption-style va bai hoc rut ra tu case Chegg vs ChatGPT.

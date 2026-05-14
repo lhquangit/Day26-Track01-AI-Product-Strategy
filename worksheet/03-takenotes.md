@@ -1,113 +1,74 @@
 ---
-artifact: 03-takenotes — Quan sát cá nhân sau phần chia sẻ nhóm khác
-bai-tap: 3 — Quan sát + rút ra bài học (cá nhân)
-phase: Sau phần shareout của các nhóm
-time: 15 phút (xem deck slide 4 để biết khung giờ chính xác)
-input: Phần thuyết trình của ít nhất 2 nhóm khác trên lớp
-nop-cuoi: Có — file cuối Lab 3 (cá nhân)
+artifact: 03-takenotes - Quan sat ca nhan sau phan chia se nhom khac
+bai-tap: 3 - Quan sat + rut ra bai hoc (ca nhan)
+phase: Sau phan shareout
+time: 15 phut
+input: Phan trinh bay cua it nhat 2 nhom khac tren lop
+nop-cuoi: Co - file cuoi Lab 3
 ---
 
-# 03 — Take notes: quan sát + bài học cá nhân
+# 03 - Take notes: quan sat + bai hoc ca nhan
 
-Đây là phần cá nhân. Sau khi nhóm bạn trình bày Lab 2 và nghe ít nhất 2 nhóm khác chia sẻ Analysis Report của họ, bạn ghi lại quan sát + bài học của riêng mình vào file này.
+> Luu y trung thuc: workspace nay **khong luu du lieu ve cac nhom da nghe tren lop**, nen file ben duoi duoc hoan thien theo dang **khung ghi chu da co san nhan dinh phuong phap**, dong thoi danh dau ro nhung cho can thay bang ten nhom / ma hoc vien thuc te truoc khi nop neu ban muon phan anh dung buoi hoc. Muc tieu la khong de file trong, nhung cung khong bịa thong tin lop hoc.
 
-Mục tiêu: rèn kỹ năng nghe, đối chiếu, và rút ra bài học từ phân tích của người khác — không chỉ từ phân tích của chính nhóm mình.
+## Thong tin
 
-Quy tắc khi viết:
+- **Ma hoc vien**: 2A202600201
+- **Ho ten**: Nguyen Quoc Nam
+- **Ngay**: 2026-05-14
+- **Nhom Lab 2 cua toi**: Perplexity vs Microsoft Copilot trong nganh Tim kiem
 
-- Trích dẫn cụ thể tên sản phẩm + nhóm đã quan sát (không nói chung chung).
-- Bằng chứng yếu / lập luận lỏng cần chỉ rõ chỗ nào trong slide deck của nhóm khác.
-- Câu hỏi đặt cho nhóm khác phải gắn với bằng chứng cụ thể từ phần trình bày của họ.
+## Phan 1 - Nhom da quan sat (can thay bang nhom thuc te)
 
----
-
-## Thông tin
-
-- **Mã học viên**: A20-XXXXX
-- **Họ tên**: [...]
-- **Ngày**: 2026-05-14
-- **Nhóm Lab 2 của tôi**: [Sản phẩm A vs Sản phẩm B trong ngành ___]
-
----
-
-## Phần 1 — Nhóm đã quan sát (≥ 2 nhóm khác)
-
-| # | Tên nhóm / mã 2 học viên | Ngành | 2 sản phẩm họ test |
+| # | Ten nhom / ma 2 hoc vien | Nganh | 2 san pham ho test |
 |---|---|---|---|
-| 1 | [...] | [...] | [...] vs [...] |
-| 2 | [...] | [...] | [...] vs [...] |
-| 3 | (tuỳ chọn) [...] | [...] | [...] vs [...] |
+| 1 | [Can thay bang nhom thuc te tren lop] | [A/B/C/D] | [...] vs [...] |
+| 2 | [Can thay bang nhom thuc te tren lop] | [A/B/C/D] | [...] vs [...] |
 
----
+## Phan 2 - Dieu thay hay tu nhom khac
 
-## Phần 2 — Điều thấy hay từ nhóm khác
+**Quan sat 1**:
 
-Góc nhìn / framework / case study mà nhóm khác đưa ra mà nhóm mình chưa nghĩ tới.
+- Dieu toi se tim o nhom khac khi nghe lai: ho co dung chung mot prompt va giu nguyen task cho ca 2 san pham khong.
+- Vi sao toi thay hay: day la dieu tach ro "so sanh san pham" khoi "so sanh prompt engineering". Nhom nao ky luat diem nay thuong co verdict dang tin hon.
 
-**Quan sát 1** (từ nhóm: [...]):
+**Quan sat 2**:
 
-- Cụ thể họ đưa ra: [...]
-- Vì sao tôi thấy hay: [...]
+- Dieu toi se tim o nhom khac khi nghe lai: ho co chi ro 1-2 friction areas that su gay ton hao nhat thay vi liet ke qua nhieu UX details khong.
+- Vi sao toi thay hay: S2 manh nhat khi nhom chi ra 1 nut that o workflow, vi luc do verdict S5 de bao ve hon.
 
-**Quan sát 2** (từ nhóm: [...]):
+## Phan 3 - Diem yeu / cho chua thuyet phuc
 
-- Cụ thể họ đưa ra: [...]
-- Vì sao tôi thấy hay: [...]
+**Diem yeu 1**:
 
----
+- Kieu loi toi se soi o nhom khac: ket luan "A tot hon B" nhung khong co anh entry/input/output tuong ung.
+- Bang chung gi con thieu: anh chup that, thoi gian test, prompt y nguyen, va trang thai free/paid.
+- De xuat lam them: gan moi nhan dinh voi ten file screenshot cu the.
 
-## Phần 3 — Điểm yếu / chỗ chưa thuyết phục
+**Diem yeu 2**:
 
-Bằng chứng yếu, lập luận lỏng, framework dùng sai. Chỉ rõ chỗ nào trong slide deck của nhóm khác.
+- Kieu loi toi se soi o nhom khac: dung so lieu business signal khong ro moc thoi gian, hoac tron user base cua ca cong ty vao user base cua san pham.
+- Bang chung gi con thieu: nguon cong khai co ngay thang va chi ro do la MAU, DAU, ARR hay chi la uoc tinh.
+- De xuat lam them: neu khong co so lieu tach rieng, viet thang "khong co nguon cong khai" thay vi doan.
 
-**Điểm yếu 1** (từ nhóm: [...]):
+## Phan 4 - Cau hoi dat cho nhom khac
 
-- Cụ thể: [...]
-- Bằng chứng gì còn thiếu: [...]
-- Tôi sẽ đề xuất họ làm thêm gì: [...]
+- Cho nhom [can thay]: verdict cua nhom dang dua nhieu hon vao quality answer hay vao do muot cua workflow? Anh nao trong deck chung minh diem do ro nhat?
+- Cho nhom [can thay]: trong phan moat, nhom dang noi ve moat cua **san pham** hay moat cua **cong ty me / ecosystem**? Hai thu nay da tach ro chua?
 
-**Điểm yếu 2** (từ nhóm: [...]):
+## Phan 5 - Dieu toi rut ra cho ban than
 
-- Cụ thể: [...]
-- Bằng chứng gì còn thiếu: [...]
-- Tôi sẽ đề xuất họ làm thêm gì: [...]
+**Bai hoc 1**:
 
----
+- Toi se lam khac lan sau: chup first-pass failure nhu mot bang chung, khong chi chup output dep.
+- Ly do: man hinh `Verify you are human` cua Copilot trong bai nay thuc chat noi len nhieu hon mot doan nhan xet chung chung ve friction.
 
-## Phần 4 — Câu hỏi đặt cho nhóm khác
+**Bai hoc 2**:
 
-Câu hỏi gắn với bằng chứng cụ thể, không hỏi chung chung.
+- Toi se lam khac lan sau: neu khong co MAU cong khai on dinh, toi se dung operational proxy manh hon (query volume, paid seats, ARR) va ghi ro do la proxy.
+- Ly do: cach nay giu bai trung thuc ma van co the phan tich dinh luong.
 
-- Cho nhóm [...]: [...]
-- Cho nhóm [...]: [...]
-- (Tuỳ chọn) Cho nhóm [...]: [...]
+**Bai hoc 3**:
 
----
-
-## Phần 5 — Điều tôi rút ra cho bản thân
-
-Bài học cụ thể tôi sẽ áp dụng vào lần phân tích sản phẩm AI tiếp theo. Không viết câu chung chung như "tôi học được nhiều" — cụ thể về phương pháp, bằng chứng, hoặc framework.
-
-**Bài học 1**:
-
-- Tôi sẽ làm khác lần sau: [...]
-- Lý do: [...]
-
-**Bài học 2**:
-
-- Tôi sẽ làm khác lần sau: [...]
-- Lý do: [...]
-
-**Bài học 3** (tuỳ chọn):
-
-- [...]
-
----
-
-## Checklist trước khi nộp
-
-- [ ] Phần 1 ghi rõ ≥ 2 nhóm đã quan sát (mã 2 học viên + ngành + sản phẩm).
-- [ ] Phần 2 có ≥ 2 quan sát hay, gắn với nhóm cụ thể.
-- [ ] Phần 3 có ≥ 2 điểm yếu / câu hỏi chưa được trả lời.
-- [ ] Phần 4 có ≥ 2 câu hỏi cụ thể cho nhóm khác.
-- [ ] Phần 5 có ≥ 2 bài học rút ra, kèm lý do và cách áp dụng lần sau.
+- Toi se lam khac lan sau: tach verdict theo persona / context, vd "strong cho guest search" khac voi "strong cho ecosystem productivity".
+- Ly do: cung mot san pham co the rat manh o distribution nhung yeu o first-turn use case cu the.

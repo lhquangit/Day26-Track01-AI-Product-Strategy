@@ -1,95 +1,52 @@
 ---
-artifact: 2 — Bảng so sánh 2 sản phẩm theo 5 mục
-bai-tap: 2 — Phân tích 2 sản phẩm AI (nhóm 2 học viên)
-phase: Chuyển giao Phase 2 → Phase 3 (5 phút)
-time: 5 phút
+artifact: 2 - Bang so sanh 2 san pham theo 5 muc
+bai-tap: 2 - Phan tich 2 san pham AI
+phase: Chuyen giao Phase 2 -> Phase 3
 input: 1-research-notes.md + screenshots/
-nop-cuoi: Không — file trung gian (đầu vào cho `3-FINAL-analysis-outline.md`)
+nop-cuoi: Khong - file trung gian
 ---
 
-# 2 — Bảng so sánh 2 sản phẩm theo 5 mục slide deck
+# 2 - Bang so sanh 2 san pham theo 5 muc slide deck
 
-Mục tiêu: gộp toàn bộ quan sát ở Bước 1 thành **một bảng so sánh nén** — cùng cấu trúc 5 mục mà slide deck cuối sẽ dùng. Sau bước này, nhóm có "khung xương" của slide deck.
+## Phan A - Bang so sanh 5 muc
 
-Lý do làm bước này: nhảy thẳng từ log sang slide deck dễ bị bỏ sót mục. Bảng so sánh ép nhóm trả lời từng mục cho cả 2 sản phẩm song song — phát hiện ngay nếu mục nào còn thiếu bằng chứng.
-
-Quy tắc: mỗi ô của bảng dài tối đa 2 câu. Nếu ô nào để trống → quay lại `1-research-notes.md` đào thêm trước khi sang Bước 3.
-
-## Quy trình 5 phút
-
-```text
-3 phút  — Điền bảng so sánh 5 mục (5 dòng × 2 cột)
-1 phút  — Đánh dấu ô nào còn thiếu bằng chứng
-1 phút  — Quyết định: cần test thêm hay đủ để sang slide?
-```
-
----
-
-## Phần A — Bảng so sánh 5 mục
-
-| Mục | Sản phẩm A | Sản phẩm B |
+| Muc | San pham A - Perplexity | San pham B - Microsoft Copilot |
 |---|---|---|
-| **S1 — Product Moment**<br><sup>Entry point + ý định người dùng + surface chính (chat / form / canvas / IDE)</sup> | [...] | [...] |
-| **S2 — Workflow Evidence**<br><sup>Trước / trong / sau khi dùng AI. Friction chính (số click, tab, copy-paste, load mental)</sup> | [...] | [...] |
-| **S3 — Output &amp; Trust**<br><sup>Chất lượng output + dẫn nguồn + disclaimer + control cho người dùng</sup> | [...] | [...] |
-| **S4 — Business Signal**<br><sup>Pricing + giới hạn / paywall + định vị Cost-Capability-Speed (rẻ-nhanh hay mạnh-đắt)</sup> | [...] | [...] |
-| **S5 — Product Judgment**<br><sup>Verdict 1 dòng: Strong / Promising / Weak / At Risk + lý do</sup> | [...] | [...] |
+| **S1 - Product Moment** | Search-native answer engine; entry point la o `Ask anything` va nut `Search`, khong can dang nhap de thu ngay. | Assistant surface rong hon search; entry point dep, co starter prompts, nhung khong tap trung bang Perplexity cho tac vu tim kiem co source. |
+| **S2 - Workflow Evidence** | 1 o nhap -> Enter -> output trong khoang 12 giay -> follow-up suggestions. Fewer steps, it tab-hops less. | 1 o nhap -> Enter -> privacy modal + human verification. Workflow bi dut doan truoc khi co answer. |
+| **S3 - Output & Trust** | Co output that su, co note uncertainty, hien `10 sources`, va giu thread de hoi tiep. | Khong co output noi dung trong first pass guest mode, nen trust signal bi thua ngay tu gate dau vao. |
+| **S4 - Business Signal** | Dinh vi "mạnh hơn free search" voi upsell Pro; trang official Perks nhan manh `just $20/month`. | Consumer chat free, nhung Microsoft day gia tri tra phi vao he sinh thai Microsoft 365; pricing chinh thuc the hien goi ca nam va higher usage trong app suite. |
+| **S5 - Product Judgment** | **Strong** cho use case search nhanh co citation. | **Promising / At Risk for guest research use**: tham vong lon, distribution lon, nhung first-use friction trong luot test nay qua cao. |
 
----
+## Phan B - Doi chieu 3 friction areas
 
-## Phần B — Đối chiếu 3 friction areas (nén từ Lens 3)
+- **Physical load**: Perplexity co it click hon; Copilot bi them modal va challenge nen so thao tac "khong tao gia tri" tang len.
+- **Cognitive burden**: Perplexity framing rat ro "ask + search"; Copilot buoc nguoi dung xu ly them context ve mode, prompt cards, va gate verification.
+- **User workarounds**: Voi Perplexity, workaround chu yeu la bo qua cookie/sign-in overlay. Voi Copilot, workaround can vuot qua human verification, nhung dieu nay da vuot qua muc "first-turn smoothness".
 
-Đây là cột trụ của mục S2 trong slide deck. Mỗi friction area trả lời 1 câu so sánh:
+## Phan C - Doi chieu 6 trust signals
 
-- **Physical load** (số click / tab / lần copy-paste): [So sánh A và B trong 1 câu]
-- **Cognitive burden** (cần học prompt engineering / có hint sẵn / có nhớ ngữ cảnh giữa lượt chat):
-  - [So sánh A và B trong 1 câu]
-- **User workarounds** (nhóm phải tự làm gì để bù yếu điểm — vd: prompt lại 3 lần, copy sang công cụ khác):
-  - [So sánh A và B trong 1 câu]
-
----
-
-## Phần C — Đối chiếu 6 trust signals (nén cho mục S3)
-
-Đánh dấu mỗi sản phẩm có / không / một phần:
-
-| Tín hiệu đáng tin | Sản phẩm A | Sản phẩm B |
+| Tin hieu dang tin | Perplexity | Microsoft Copilot |
 |---|---|---|
-| 1. Dẫn nguồn (citation) — link mở được, đúng nội dung | [...] | [...] |
-| 2. Disclaimer khi không chắc ("không tìm được", "có thể sai") | [...] | [...] |
-| 3. Fallback / dừng lại khi out-of-scope | [...] | [...] |
-| 4. Consistency — chạy 2 lần cùng prompt, output có giống không | [...] | [...] |
-| 5. User control — sửa lại, dừng, regenerate, undo | [...] | [...] |
-| 6. Explanation — giải thích "tại sao AI nói thế" (nếu có) | [...] | [...] |
+| 1. Dan nguon mo duoc | Co - output hien `10 sources` | Chua quan sat duoc trong first pass guest mode |
+| 2. Disclaimer khi khong chac | Co - output neu do chac chan / estimate | Chua quan sat duoc do khong co answer |
+| 3. Fallback / dung lai khi out-of-scope | Mot phan - giai quyet bang note uncertainty | Khong phai fallback tri tue; he thong dung o verification gate |
+| 4. Consistency | Chua re-run do gioi han thoi gian, nhung first pass thanh cong | First pass that bai do verification gate |
+| 5. User control | Co thread follow-up, co tiep tuc hoi | Co library / share / tasks, nhung khong dat den buoc user co the danh gia answer |
+| 6. Explanation | Co source badge va cau tra loi co cau truc | Chua quan sat duoc |
 
----
+## Phan D - Dinh vi tren Cost-Capability-Speed
 
-## Phần D — Định vị 2 sản phẩm trên Cost-Capability-Speed (cho mục S4)
+- **Perplexity nghieng ve**: can bang giua speed va capability  
+  Ly do: tra ket qua nhanh, citation ro, va goi Pro dat vao chieu sau nghien cuu.
 
-Mỗi sản phẩm chọn **1** trong 3 góc tam giác (vẽ hình tay nếu cần — sẽ dán vào slide S4):
+- **Copilot nghieng ve**: can bang he sinh thai / broad assistant hon la search speed  
+  Ly do: gia tri rat lon neu nguoi dung da o trong ecosystem Microsoft, nhung first-pass speed cho guest research mode khong tot trong bai test nay.
 
-- **Sản phẩm A nghiêng về**: [rẻ-nhanh / mạnh-đắt / cân bằng] — lý do 1 câu: [...]
-- **Sản phẩm B nghiêng về**: [rẻ-nhanh / mạnh-đắt / cân bằng] — lý do 1 câu: [...]
+## Phan E - Verdict so bo
 
----
+- **Perplexity - verdict so bo**: Strong  
+  Ly do 1 cau: no giai quyet dung bai toan "tim nhanh + co nguon + hoi tiep" ngay o luot guest dau tien.
 
-## Phần E — Verdict sơ bộ (cho mục S5.1)
-
-Đặt verdict 1 dòng cho mỗi sản phẩm (sẽ tinh chỉnh lại ở Bước 3 sau khi vận dụng 4 Lens + Spark/Loop/System):
-
-- **Sản phẩm A — verdict sơ bộ**: [Strong / Promising / Weak / At Risk]
-  - Lý do 1 câu: [...]
-- **Sản phẩm B — verdict sơ bộ**: [Strong / Promising / Weak / At Risk]
-  - Lý do 1 câu: [...]
-
----
-
-## Bảng kiểm trước khi sang Bước 3
-
-- [ ] Mỗi ô của bảng so sánh 5 mục có ít nhất 1-2 câu, không trống.
-- [ ] Mỗi nhận định đều có thể chỉ về ảnh / log trong `1-research-notes.md` làm bằng chứng.
-- [ ] Đã định vị cả 2 sản phẩm trên Cost-Capability-Speed.
-- [ ] Đã có verdict sơ bộ cho cả 2 sản phẩm.
-- [ ] Còn ô nào thiếu bằng chứng → đã đánh dấu để Phase 3 đào thêm.
-
-Sang `3-FINAL-analysis-outline.md` để dựng outline 5 mục đầy đủ (với S5 mở rộng 8 sub-mục) trước khi build slide.
+- **Microsoft Copilot - verdict so bo**: Promising / At Risk for guest-mode search  
+  Ly do 1 cau: distribution va product ambition manh, nhung workflow that bai truoc khi sinh duoc answer trong first-turn test.
